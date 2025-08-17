@@ -1,0 +1,14 @@
+{
+  "name": "s3-sink-connector",
+  "config": {
+    "connector.class": "io.confluent.connect.s3.S3SinkConnector",
+    "tasks.max": "1",
+    "topics": "<your-kafka-topic-name>",
+    "s3.bucket.name": "<your-s3-bucket-name>",
+    "s3.region": "<your-aws-region>",
+    "flush.size": "3",
+    "storage.class": "io.confluent.connect.s3.storage.S3Storage",
+    "format.class": "io.confluent.connect.s3.format.json.JsonFormat",
+    "schema.compatibility": "NONE"
+  }
+}
