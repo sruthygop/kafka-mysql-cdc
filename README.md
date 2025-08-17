@@ -50,7 +50,7 @@ Kafka S3 Sink Connector
 
 * Publishes each event to the corresponding Kafka topic (one topic per table).
 
-**Configuration file:** [mysqlsourse-connector.json](mysqlsource-connector.json)
+**Configuration file:** [mysqlsource-connector.json](mysqlsource-connector.json)
 
 **Register Debezium MySQL connector:** 
 
